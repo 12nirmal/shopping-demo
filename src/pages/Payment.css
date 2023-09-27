@@ -1,0 +1,81 @@
+/* @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Montserrat:wght@600&display=swap");
+
+.h {
+  height: 126vh;
+  background: url(https://html.design/demo/fresh/images/our_bg.jpg);
+}
+
+.credit-card-form .form-row {
+  display: flex;
+}
+
+.credit-card-form {
+  margin-top: 4%;
+  margin-left: 35%;
+  max-width: 466px;
+  padding: 1em;
+  border-radius: 10px;
+  font-family: "Montserrat", sans-serif;
+  background: url(https://wallpaperaccess.com/full/4597124.jpg);
+  text-align: center;
+  color: #424242;
+  align-content: center;
+  box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.4);
+}
+
+.credit-card-form h2 {
+  margin-bottom: 10%;
+  font-size: 24px;
+  font-family: math;
+  color: black;
+}
+
+.credit-card-form .form-group {
+  margin-bottom: 15px;
+}
+
+.credit-card-form label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+  color: black;
+}
+
+.credit-card-form input[type="text"],
+.credit-card-form select {
+  width: 86%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 1rem;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.credit-card-form button[type="submit"] {
+  width: 100%;
+  padding: 14px;
+  background-color: #585858;
+  color: #fff;
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  font-family: "Montserrat", sans-serif;
+}
+
+.Image1 {
+  margin-top: 0;
+  width: 220px;
+  transition: all 1s ease;
+}
+
+.Image1:hover {
+  transform: scale(1.2);
+  overflow: hidden;
+  border-radius: 2%;
+}
+
+.h2 {
+  margin: 0px;
+} */

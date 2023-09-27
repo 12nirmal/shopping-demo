@@ -1,0 +1,125 @@
+img.logo {
+  width: 50px;
+  height: 50px;
+  padding: 3px;
+  border-radius: 40px;
+  background: white;
+  position: relative;
+  left: 6px;
+}
+
+.navbar {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background: lightgrey; */
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0.188em 1.55em rgb(33 24 24);
+  background: url(https://4kwallpapers.com/images/wallpapers/3d-background-glass-light-abstract-background-blue-3840x2160-8728.jpg);
+}
+
+.navbar > .nav-item > a,
+p {
+  text-decoration: none;
+  margin: 15px;
+  position: relative;
+  opacity: 0.9;
+  font-size: 22px;
+  font-variant: all-small-caps;
+}
+
+.navbar > .nav-item > a:hover {
+  color: yellow;
+}
+
+.logout {
+  width: 40%;
+  height: 2em;
+  background-color: cadetblue;
+  display: contents;
+  justify-content: center;
+  align-items: center;
+  transform: 0.25em;
+  cursor: pointer;
+  border-radius: 0.25em;
+}
+
+.fa-bars:before,
+.fa-navicon:before {
+  content: "\f0c9";
+  right: 10px;
+  position: relative;
+  font-size: 25px;
+  display: none;
+}
+
+.fa-xmark:before {
+  content: "\f00d";
+  position: relative;
+  right: 10px;
+  font-size: 27px;
+  display: none;
+}
+
+/* @bmedia only screen and (max-width: 802px) {
+    .fa-bars:before,
+    .fa-navicon:before {
+      content: "\f0c9";
+      right: 10px;
+      position: relative;
+      font-size: 25px;
+      display: none;
+    }
+  } */
+
+@media (max-width: 768px) {
+  .navbar > .nav-item > a {
+    display: none;
+    /* width: 100%;
+    height: 100vh;
+    background: #e7f5ff;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    transform: translateX(100%);
+    transition: all 0.5s linear;
+
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none; */
+  }
+  .fa-bars:before {
+    display: block;
+  }
+  .fa-house:before {
+    content: "\f015";
+    display: none;
+  }
+  .fa-address-card:before {
+    content: "\f2bb";
+    display: none;
+  }
+  .fa-bag-shopping:before {
+    content: "\f290";
+    display: none;
+  }
+  .fa-address-book:before {
+    content: "\f2b9";
+    display: none;
+  }
+  .fa-right-to-bracket:before {
+    content: "\f2f6";
+    display: none;
+  }
+  p {
+    width: 200px;
+    position: relative;
+  }
+}
