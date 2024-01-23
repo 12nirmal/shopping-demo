@@ -7,7 +7,7 @@ function HomePage() {
     <>
       <div>
         <h1 className="home">This is Home Page</h1>
-        {isAuthenticated && <p>I'm Here</p>}
+        {isAuthenticated && <p>I'm Here to Konw you</p>}
       </div>
     </>
   );
